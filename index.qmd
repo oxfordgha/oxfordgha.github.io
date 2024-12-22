@@ -1,0 +1,200 @@
+---
+title: ""
+page-layout: custom
+section-divs: false
+toc: false
+# listing:
+#   - id: featured-posts
+#     contents: posts
+#     type: grid
+#     image-height: 250px
+#     sort: "date desc"
+#     grid-item-border: false
+#     max-items: 3
+#   - id: featured-packages
+#     contents:
+#       - packages/codeditr.qmd
+#       - packages/codigo.qmd
+#       - packages/oxcgrt.qmd
+#     type: grid
+#     image-height: 400px
+#     image-placeholder: images/ihealth_base_pos_tn.png
+#     grid-item-border: false
+#     max-items: 3
+---
+
+::: {.hero-banner}
+
+::: {.content-block}
+
+::: {.hero-text}
+
+# Fostering innovation, research, and education in the field of computational sciences for global health.
+
+### We provide a learning environment for open and reproducible science and collaborate with partners to leverage this learning to contribute to solutions to global health challenges.
+
+<!-- 
+::: {.hero-buttons}
+[Projects](/projects/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+[Our packages](/packages/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"} 
+[Our mission](/about/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+:::
+ -->
+
+:::
+
+::: {.hero-image-right}
+
+![](images/oxgha_icon.png)
+
+:::
+
+:::
+
+:::
+
+
+::: {.theme-banner}
+
+::: {.info-block}
+
+# Oxford iHealth is
+
+::: {.grid}
+
+::: {.g-col-4}
+
+![](images/insight.png){fig-align="center"}
+
+Modern, effective, and ethical data use driving evidence-based strategies and policies for improving global health
+:::
+
+::: {.g-col-4}
+![](images/innovation.png){fig-align="center"}
+
+State-of-the-science analytic and computational workflows that are open and reproducible
+:::
+
+::: {.g-col-4}
+![](images/impact.png){fig-align="center"}
+
+Discoveries that impact on global health and measures that assess global health impact
+:::
+
+:::
+
+:::
+
+:::
+
+
+::: {.info-block}
+
+# Latest posts
+
+::: {#featured-posts}
+:::
+
+:::
+
+
+```{r student-map}
+#| echo: false
+#| message: false
+#| warning: false
+#| eval: false
+
+## Get and process student country data 
+map_data <- function() {
+  read.csv(
+    file = "https://raw.githubusercontent.com/OxfordIHTM/infohub/refs/heads/main/data-raw/student_country.csv"
+  ) |>
+    dplyr::mutate(
+      lon = jitter(lon, factor = 1.2),
+      lat = jitter(lat, factor = 1.2)
+    )
+}
+
+leaflet::leaflet(height = 600) |>
+  mapboxapi::addMapboxTiles(
+    #style_id = "cjb38c92p1vsw2slyvdv9t4i7",
+    #style_id = "cjb38aptl29ar2spywoh20s69",
+    style_id = "cjdlr8pvl0xiv2sqvq1evk1pl",
+    username = "ernestguevarra",
+    options = leaflet::leafletOptions(minZoom = 3)
+  ) |>
+  leaflet::setView(lng = 20, lat = 0, zoom = 3) |>
+  #leaflet::addCircleMarkers(
+  leaflet::addAwesomeMarkers(
+    data = map_data(),
+    # icon = leaflet::awesomeIcons(
+    #   icon = "home", library = "glyphicon",
+    #   #markerColor = "green", iconColor = "white", 
+    #   squareMarker = TRUE
+    # ),
+    clusterOptions = leaflet::markerClusterOptions(),
+    label = ~paste0(
+      cohort, "<br/>",
+      "Country: ", country, "<br/>"
+    ) |>
+      lapply(htmltools::HTML),
+    labelOptions = leaflet::labelOptions(
+      style = list(
+        #"font-weight" = "bold",
+        "background-color" = oxthema::get_oxford_colour("sky"),
+        padding = "3px 8px"
+      ),
+      textsize = "12px",
+      direction = "auto"
+    )
+  ) |>
+  htmlwidgets::onRender("
+    function(el, x) {
+      this.on('baselayerchange', function(e) {
+        e.layer.bringToBack();
+      })
+    }
+  ")
+```
+
+<!-- ::: {.info-block}
+
+# Featured packages
+
+::: {#featured-packages}
+:::
+
+::: -->
+
+::: {.theme-banner}
+
+::: {.info-block}
+
+# Featured packages
+
+::: {.grid}
+
+::: {.g-col-4}
+
+[![](images/codeditr.png){fig-align="center"}](https://oxford-ihtm.io/codeditr)
+
+**codeditr**: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool
+:::
+
+::: {.g-col-4}
+[![](images/codigo.png){fig-align="center"}](https://oxford-ihtm.io/codigo)
+
+**codigo**: Interface to the International Classification of Diseases (ICD) API
+:::
+
+::: {.g-col-4}
+[![](images/lawsafrica.png){fig-align="center"}](https://oxford-ihtm.io/africalaws)
+
+**africalaws**: Interface to the Laws.Africa API
+:::
+
+:::
+
+:::
+
+:::
