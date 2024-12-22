@@ -9,8 +9,8 @@ jobs:
   test-render:
     runs-on: ubuntu-latest
     container: rocker/geospatial:4.4.2
-    env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    # env:
+    #   GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       
