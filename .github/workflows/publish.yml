@@ -8,6 +8,7 @@ name: Quarto Publish
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    container: rocker/geospatial:4.4.2
     permissions:
       contents: write
     steps:
