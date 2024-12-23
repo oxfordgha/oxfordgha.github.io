@@ -52,32 +52,30 @@ section-divs: false
 
 :::
 
-<!--
+
 ::: {.theme-banner}
 
 ::: {.info-block}
 
-# Oxford iHealth is
+# Our Services
 
 ::: {.grid}
 
 ::: {.g-col-4}
 
-![](images/insight.png){fig-align="center"}
+![](images/analytics.png){fig-align="center"}
 
-Modern, effective, and ethical data use driving evidence-based strategies and policies for improving global health
 :::
 
 ::: {.g-col-4}
-![](images/innovation.png){fig-align="center"}
+![](images/evaluation.png){fig-align="center"}
 
-State-of-the-science analytic and computational workflows that are open and reproducible
+
 :::
 
 ::: {.g-col-4}
 ![](images/impact.png){fig-align="center"}
 
-Discoveries that impact on global health and measures that assess global health impact
 :::
 
 :::
@@ -86,7 +84,7 @@ Discoveries that impact on global health and measures that assess global health 
 
 :::
 
-
+<!--
 ::: {.info-block}
 
 # Latest posts
