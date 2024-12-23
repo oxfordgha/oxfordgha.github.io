@@ -8,10 +8,9 @@ on:
 jobs:
   test-render:
     runs-on: ubuntu-latest
-    #container: rocker/geospatial:4.4.2
-    # permissions:
-    #   issues: write
-    #   pull-requests: write
+    permissions:
+      issues: write
+      pull-requests: write
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       MAPBOX_PUBLIC_TOKEN: ${{ secrets.MAPBOX_PUBLIC_TOKEN }}
