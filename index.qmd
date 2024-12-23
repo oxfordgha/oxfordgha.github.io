@@ -1,8 +1,7 @@
 ---
-title: ""
+pagetitle: Oxford Global Health Advisory
 page-layout: custom
 section-divs: false
-toc: false
 # listing:
 #   - id: featured-posts
 #     contents: posts
@@ -29,9 +28,9 @@ toc: false
 
 ::: {.hero-text}
 
-# Fostering innovation, research, and education in the field of computational sciences for global health.
+# A consortium of Global Health experts from more than 55 different countries across Africa, Asia, and Latin America, spanning a range of disciplines, technical skills and experiences. 
 
-### We provide a learning environment for open and reproducible science and collaborate with partners to leverage this learning to contribute to solutions to global health challenges.
+### We offer expert analysis, capacity development, impact assessment as well as policy design and evaluation on topics related to global health challenges and related interventions
 
 <!-- 
 ::: {.hero-buttons}
@@ -53,7 +52,7 @@ toc: false
 
 :::
 
-
+<!--
 ::: {.theme-banner}
 
 ::: {.info-block}
@@ -96,13 +95,19 @@ Discoveries that impact on global health and measures that assess global health 
 :::
 
 :::
+-->
 
+::: {.info-block}
+
+# Where we work
+
+:::
 
 ```{r student-map}
 #| echo: false
 #| message: false
 #| warning: false
-#| eval: false
+#| eval: true
 
 ## Get and process student country data 
 map_data <- function() {
@@ -117,30 +122,20 @@ map_data <- function() {
 
 leaflet::leaflet(height = 600) |>
   mapboxapi::addMapboxTiles(
-    #style_id = "cjb38c92p1vsw2slyvdv9t4i7",
-    #style_id = "cjb38aptl29ar2spywoh20s69",
     style_id = "cjdlr8pvl0xiv2sqvq1evk1pl",
     username = "ernestguevarra",
     options = leaflet::leafletOptions(minZoom = 3)
   ) |>
   leaflet::setView(lng = 20, lat = 0, zoom = 3) |>
-  #leaflet::addCircleMarkers(
   leaflet::addAwesomeMarkers(
     data = map_data(),
-    # icon = leaflet::awesomeIcons(
-    #   icon = "home", library = "glyphicon",
-    #   #markerColor = "green", iconColor = "white", 
-    #   squareMarker = TRUE
-    # ),
     clusterOptions = leaflet::markerClusterOptions(),
     label = ~paste0(
-      cohort, "<br/>",
       "Country: ", country, "<br/>"
     ) |>
       lapply(htmltools::HTML),
     labelOptions = leaflet::labelOptions(
       style = list(
-        #"font-weight" = "bold",
         "background-color" = oxthema::get_oxford_colour("sky"),
         padding = "3px 8px"
       ),
@@ -164,7 +159,7 @@ leaflet::leaflet(height = 600) |>
 ::: {#featured-packages}
 :::
 
-::: -->
+:::
 
 ::: {.theme-banner}
 
@@ -198,3 +193,5 @@ leaflet::leaflet(height = 600) |>
 :::
 
 :::
+
+-->
