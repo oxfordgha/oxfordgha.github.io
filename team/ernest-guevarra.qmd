@@ -3,6 +3,8 @@ title: Ernest Guevarra
 image: ../images/ernestguevarra.jpg
 about:
   template: solana
+  image-shape: round
+  image-alt: Ernest Guevarra
   links:
     - icon: globe
       text: Website

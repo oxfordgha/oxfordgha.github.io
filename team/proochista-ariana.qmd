@@ -3,6 +3,8 @@ title: Proochista Ariana
 image: ../images/proochistaariana.jpg
 about:
   template: solana
+  image-shape: round
+  image-alt: Proochista Ariana
   links:
     - icon: globe
       text: Website
