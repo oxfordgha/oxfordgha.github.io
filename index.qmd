@@ -61,20 +61,23 @@ section-divs: false
 
 ::: {.grid}
 
-::: {.g-col-4}
+::: {.g-col-3}
+![](images/programme_design.png){fig-align="center"}
 
+:::
+
+::: {.g-col-3}
+![](images/capacity.png){fig-align="center"}
+
+:::
+
+::: {.g-col-3}
 ![](images/analytics.png){fig-align="center"}
 
 :::
 
-::: {.g-col-4}
+::: {.g-col-3}
 ![](images/evaluation.png){fig-align="center"}
-
-
-:::
-
-::: {.g-col-4}
-![](images/impact.png){fig-align="center"}
 
 :::
 
