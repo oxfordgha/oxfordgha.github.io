@@ -1,0 +1,21 @@
+---
+title: Maha El-Adawy
+image: ../images/mahaeladawy.jpg
+about:
+  template: solana
+  image-shape: round
+  image-alt: Maha El-Adawy
+  links:
+    - icon: envelope
+      text: Email
+      aria-label: Email
+      href: mailto:eladawym@who.int
+---
+
+Dr Maha El-Adawy currently holds the position of Director of the Department of Healthier Populations in the World Health Organization, Eastern Mediterranean Regional Office (EMRO). She has been in this post since July of 2016.
+
+Previously, Dr El-Adawy held the position of United Nations Population Fund (UNFPA) Representative to the Islamic Republic of Iran from August 2015 to July 2016. She also held the position of Program and Technical Regional Advisor, Sexual Reproductive Health and Rights in UNFPA Regional Office both in New York, USA and later in Cairo, Egypt from January 2009 to August 2015.
+
+Dr El-Adawy was the Policy Adviser for Health in UNDP office in New York, USA from June 2007 to December 2008. Between March 2000 and until June 2007 Dr El Adawy was the Senior Regional Reproductive Health and Reproductive Rights Program Officer at the Ford Foundation, New York, USA. She held other senior health positions at the European Commission (EC) Delegation in Cairo, Egypt as well as at Harvard School of Public Health in Boston, USA.
+
+Dr El-Adawy holds a Bachelor of Medicine and Surgery from Faculty of Medicine, Cairo University, Egypt. She holds a Master’s degree in Public Health from Cairo University, Egypt. Dr El-Adawy holds a Master’s degree of Public Health in Maternal and Child Health from Harvard School of Public Health, Boston, USA as well as a Doctorate degree of Public Health from Cairo University, Egypt. She is an Eisenhower fellowship for leadership development from the Eisenhower Fellowship program, Philadelphia, USA. She also completed a Takemi fellowship from Harvard School of Public Health. She worked as a consultant with several international organizations, non-governmental organizations including UNICEF, World Bank and the American University in Beirut and the American University in Cairo.

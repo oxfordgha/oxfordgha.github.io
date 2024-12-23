@@ -1,0 +1,27 @@
+---
+title: Bruno Holthof
+image: ../images/brunoholthof.jpg
+about:
+  template: solana
+  image-shape: round
+  image-alt: Bruno Holthof
+  links:
+    - icon: envelope
+      text: Email
+      aria-label: Email
+      href: mailto:bruno.holthof@medsci.ox.ac.uk
+---
+
+Bruno Holthof is Visiting Professor of Health Innovation in the Nuffield Department of Medicine.
+
+Bruno qualified in medicine at the University of Leuven, Belgium in 1986. He completed a Master of Business Administration at the Harvard Business School in 1988 and a PhD in Health Economics at the University of Leuven in 1994. During his PhD, he used logistic regression to measure and improve performance in healthcare.
+
+Bruno joined McKinsey & Company in 1988 and developed the healthcare practice in the Benelux before becoming a Partner of McKinsey’s Global Healthcare Practice based in New Jersey. During his time at McKinsey & Company, he worked with several pharma companies on developing new drugs and creating global marketing strategies to drive adoption of these innovative drugs. His other focus was supporting Academic Medical Centres in creating centres of excellence in research, teaching, and clinical care.
+
+After the 9/11 attacks on the World Trade Centre, Bruno returned to Belgium and became Chief Executive Officer (CEO) of the Antwerp Network Hospitals in 2004. Before he joined, the Antwerp Network Hospitals were public hospitals facing bankruptcy. During his tenure as CEO, he transformed the Antwerp Network Hospitals into the most profitable hospital group in Belgium and introduced new services to better serve the local population. He also commissioned a new acute hospital in the centre of Antwerp that will open in 2023.
+
+In 2015, Bruno became the CEO of Oxford University Hospitals (OUH). He developed a masterplan for the Oxford sites and raised capital for significant investments in the digital and physical infrastructure supporting the world class research, teaching and clinical care taking place in Oxford. Under his leadership, clinical teams delivered a significant productivity increase in operating theatres, outpatients, and inpatient facilities.
+
+In 2022, Bruno was appointed Visiting Professor of Health Innovation in the Nuffield Department of Medicine and became Investment Partner of the EQT Life Sciences Health Economics Funds. His interests are developing and implementing new technologies and business models that improve outcomes for patients and lower costs for payors.
+
+He is teaching in the MSc of International Health and Tropical Medicine and is a mentor in the Oxford Creative Destruction Lab at the Said Business School. He supervises master and doctoral students interested in developing innovative solutions to global health problems.
