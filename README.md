@@ -8,3 +8,6 @@
 [![pages-build-deployment](https://github.com/oxfordgha/oxfordgha.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/oxfordgha/oxfordgha.github.io/actions/workflows/pages/pages-build-deployment)
 <!-- badges: end -->
 
+A consortium of Global Health experts from more than 55 different countries across Africa, Asia, and Latin America, spanning a range of disciplines, technical skills and experiences. 
+
+We offer expert analysis, capacity development, impact assessment as well as policy design and evaluation on topics related to global health challenges and related interventions
