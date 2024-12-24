@@ -10,22 +10,28 @@ website:
     logo: images/oxgha_neg.png
     logo-alt: Oxford Global Health Advisory
     tools:
-      # - icon: linkedin
-      #   href: https://www.linkedin.com/company/oxford-ihealth
-      # - icon: mastodon
-      #   href: https://mastodon.social/@ihealth
-      #   rel: me
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: https://www.linkedin.com/company/oxgha
+      - icon: mastodon
+        aria-label: Mastodon
+        href: https://mastodon.social/@oxgha
+        rel: me
+      # - icon: bluesky
+      #   aria-label: BlueSky
+      #   href: https://bsky.app/profile/oxgha.org
       - icon: github
+        aria-label: GitHub
         href: https://github.com/oxfordgha
     left:
       - href: index.qmd
-        text: "Home"
+        text: Home
       - text: About
         menu:
           - href: about/team.qmd
           - href: about/contact.qmd
   open-graph:
-    site-name: nutriverse
+    site-name: oxgha
   page-footer: 
     center: "Copyright 2024, Oxford Global Health Advisory" 
     background: light
