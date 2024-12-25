@@ -96,7 +96,7 @@ section-divs: false
 :::
 
 :::
--->
+
 
 ::: {.info-block}
 
@@ -153,7 +153,7 @@ leaflet::leaflet(height = 600) |>
   ")
 ```
 
-<!-- ::: {.info-block}
+::: {.info-block}
 
 # Featured packages
 
