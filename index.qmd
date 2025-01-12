@@ -62,22 +62,30 @@ section-divs: false
 ::: {.grid}
 
 ::: {.g-col-3}
+
 ![](images/programme_design.png){fig-align="center"}
+Synthesise existing evidence, account for contextual factors, and consult with key stakeholders to inform programme design
 
 :::
 
 ::: {.g-col-3}
+
 ![](images/capacity.png){fig-align="center"}
+Strengthen capacity in survey design, data management and analysis, ethics and governance, research design, and qualitative methods
 
 :::
 
 ::: {.g-col-3}
+
 ![](images/analytics.png){fig-align="center"}
+Apply modern analytics to existing data to answer questions that inform our process and programmes
 
 :::
 
 ::: {.g-col-3}
+
 ![](images/evaluation.png){fig-align="center"}
+Work with stakeholders in the design and implementation of programme evaluations to assess impact
 
 :::
 
