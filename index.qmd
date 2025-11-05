@@ -53,6 +53,52 @@ section-divs: false
 :::
 
 
+
+::: {.theme-banner}
+
+::: {.info-block}
+
+# Our Services
+
+::: {.grid}
+
+::: {.g-col-3}
+
+![](images/policy_review.png){fig-align="center"}
+Supporting government and public sector partners in shaping effective health policies.
+
+:::
+
+::: {.g-col-3}
+
+![](images/evidence_synthesis.png){fig-align="center"}
+Transforming research into actionable insights for better public policy through expert evidence synthesis and critical review.
+
+:::
+
+::: {.g-col-3}
+
+![](images/analytics.png){fig-align="center"}
+Building trusted data analytics systems that drive smarter health policies.
+
+:::
+
+::: {.g-col-3}
+
+![](images/evaluation.png){fig-align="center"}
+Empowering better public health decisions through programme evaluation and impact assessment for government and the public sector.
+
+:::
+
+:::
+
+:::
+
+:::
+
+
+
+<!-- 
 ::: {.theme-banner}
 
 ::: {.info-block}
@@ -93,114 +139,7 @@ Work with stakeholders in the design and implementation of programme evaluations
 
 :::
 
-:::
-
-<!--
-::: {.info-block}
-
-# Latest posts
-
-::: {#featured-posts}
-:::
-
-:::
-
-
-::: {.info-block}
-
-# Our Global Network
-
-:::
-
-```{r student-map}
-#| echo: false
-#| message: false
-#| warning: false
-#| eval: true
-
-## Get and process student country data 
-map_data <- function() {
-  read.csv(
-    file = "https://raw.githubusercontent.com/OxfordIHTM/infohub/refs/heads/main/data-raw/student_country.csv"
-  ) |>
-    dplyr::mutate(
-      lon = jitter(lon, factor = 1.2),
-      lat = jitter(lat, factor = 1.2)
-    )
-}
-
-leaflet::leaflet(height = 600) |>
-  mapboxapi::addMapboxTiles(
-    style_id = "cjdlr8pvl0xiv2sqvq1evk1pl",
-    username = "ernestguevarra",
-    options = leaflet::leafletOptions(minZoom = 3)
-  ) |>
-  leaflet::setView(lng = 20, lat = 0, zoom = 3) |>
-  leaflet::addAwesomeMarkers(
-    data = map_data(),
-    clusterOptions = leaflet::markerClusterOptions(),
-    label = ~paste0(
-      "Country: ", country, "<br/>"
-    ) |>
-      lapply(htmltools::HTML),
-    labelOptions = leaflet::labelOptions(
-      style = list(
-        "background-color" = oxthema::get_oxford_colour("sky"),
-        padding = "3px 8px"
-      ),
-      textsize = "12px",
-      direction = "auto"
-    )
-  ) |>
-  htmlwidgets::onRender("
-    function(el, x) {
-      this.on('baselayerchange', function(e) {
-        e.layer.bringToBack();
-      })
-    }
-  ")
-```
-
-::: {.info-block}
-
-# Featured packages
-
-::: {#featured-packages}
-:::
-
-:::
-
-::: {.theme-banner}
-
-::: {.info-block}
-
-# Featured packages
-
-::: {.grid}
-
-::: {.g-col-4}
-
-[![](images/codeditr.png){fig-align="center"}](https://oxford-ihtm.io/codeditr)
-
-**codeditr**: Implementing Cause-of-Death Data Checks Based on the WHO CoDEdit Tool
-:::
-
-::: {.g-col-4}
-[![](images/codigo.png){fig-align="center"}](https://oxford-ihtm.io/codigo)
-
-**codigo**: Interface to the International Classification of Diseases (ICD) API
-:::
-
-::: {.g-col-4}
-[![](images/lawsafrica.png){fig-align="center"}](https://oxford-ihtm.io/africalaws)
-
-**africalaws**: Interface to the Laws.Africa API
-:::
-
-:::
-
-:::
-
-:::
-
+::: 
 -->
+
+
