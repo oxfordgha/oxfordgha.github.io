@@ -72,7 +72,7 @@ Supporting government and public sector partners in shaping effective health pol
 ::: {.g-col-3}
 
 ![](images/evidence_synthesis.png){fig-align="center"}
-Transforming research into actionable insights for better public policy through expert evidence synthesis and critical review.
+Transforming research into actionable insights for through expert evidence synthesis and critical review.
 
 :::
 
@@ -86,7 +86,7 @@ Building trusted data analytics systems that drive smarter health policies.
 ::: {.g-col-3}
 
 ![](images/evaluation.png){fig-align="center"}
-Empowering better public health decisions through programme evaluation and impact assessment for government and the public sector.
+Empowering better public health decisions through programme evaluation and impact assessment.
 
 :::
 
