@@ -2,13 +2,13 @@
   {
     "listing": "/about/team.html",
     "items": [
-      "/team/proochista-ariana.html",
-      "/team/bruno-holthof.html",
-      "/team/carine-asnong.html",
-      "/team/caesar-atuire.html",
-      "/team/maha-el-adawy.html",
-      "/team/dirk-horemans.html",
-      "/team/ernest-guevarra.html"
+      "/team/ariana-proochista.html",
+      "/team/asnong-carine.html",
+      "/team/atuire-caesar.html",
+      "/team/el-adawy-maha.html",
+      "/team/guevarra-ernest.html",
+      "/team/holthof-bruno.html",
+      "/team/horemans-dirk.html"
     ]
   }
 ]
