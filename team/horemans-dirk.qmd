@@ -1,0 +1,21 @@
+---
+title: Dirk Horemans
+image: ../images/dirkhoremans.jpg
+about:
+  template: solana
+  image-shape: round
+  image-alt: Dirk Horemans
+  links:
+    - icon: envelope
+      text: Email
+      aria-label: Email
+      href: mailto:horemansd@who.int
+---
+
+Dr. Dirk Horemans is a medical doctor and seasoned public health expert with over 35 years of extensive experience. He currently co-leads the Health Systems Policy in Practice module for the MSc in International Health and Tropical Medicine. Recently, he retired from the World Health Organization (WHO), where he served as a Program Officer in the Health Services Performance Assessment unit within the Integrated Health Services department. Dr. Horemans joined WHO in 2014 during the West African Ebola outbreak to aid in health system recovery efforts across the affected nations.
+
+His expertise encompasses primary healthcare measurement, quality of care, health services resilience, and the convergence of health systems and health security, particularly in emergency situations and fragile, conflict-affected, and vulnerable settings. During the COVID-19 pandemic, Dr. Horemans played a pivotal role in leading WHO’s initiatives to assess national and global health service capacities through rapid frontline health facility assessments and the Global Pulse Surveys, which evaluated the continuity of essential health services.
+
+Before his tenure at WHO headquarters, Dr. Horemans held various influential roles across different levels of the healthcare system. He served as a project manager and WHO senior health policy advisor for the Greek health system reform, and he worked as a project manager and health advisor in Cambodia and Lao PDR. Additionally, he was the co-director of the Centre Hospitalier de Kigali and served as the district medical officer and hospital director in Mwinilunga, a rural district in Zambia. As a consultant, he collaborated with multiple organizations, including BTC, EDF, GIZ, HIB, KFW, UNFPA, USAID, and the World Bank Group, assisting in the development of health sector plans and evaluations of health projects across Africa and Asia.
+
+Dr. Horemans earned his medical degree from the Catholic University of Leuven in Belgium, holds a Diploma in Public Health and Tropical Medicine from the Institute of Tropical Medicine in Antwerp, and a Master of Science in Public Health in Developing Countries from the London School of Hygiene and Tropical Medicine. 

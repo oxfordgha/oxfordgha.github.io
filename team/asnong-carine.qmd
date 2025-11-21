@@ -1,0 +1,19 @@
+---
+title: Carine Asnong
+image: ../images/carineasnong.jpg
+about:
+  template: solana
+  image-shape: round
+  image-alt: Carine Asnong
+  links:
+    - icon: envelope
+      text: Email
+      aria-label: Email
+      href: mailto:carine.asnong@ndm.ox.ac.uk
+---
+
+I am a medical doctor and a graduate of the first 2015-2016 cohort of the Oxford MSc in International Health and Tropical Medicine. Since 2017 I have been a lecturer in the MSc IHTM and I am currently an IHTM Senior Teaching and Research Fellow and Lead of the Life Course sub-module.
+
+My research interests span adolescent health, maternal health and sexual and reproductive health and rights (SRHR), using qualitative and participatory methods. During my IHTM placement project “Perceptions and experiences of adolescent pregnancy in refugee and migrant communities on the Thai-Myanmar border”, I had the opportunity to work with vulnerable adolescents in a fragile setting. More recently, I organised adolescent advisory groups in sub-Saharan Africa for the UKRI GCRF Accelerating Achievement for Africa’s Adolescents Research Hub, aiming to inform and align research priorities and linked services with adolescents’ priorities.
+
+Together with colleagues I also dedicate time to research capacity sharing with organisations and institutions of IHTM alumni. In Liberia we collaborate with a team of early career Liberian researchers and IHTM alumni to generate locally relevant evidence, assess evidence gaps and identify research priorities in Maternal and Neonatal Health in Liberia (OMNeo Health). By invitation of colleagues in the Seychelles Ministry of Health, we are supporting the development of research skills of MoH project managers to inform health policies. We hope that these collaborations cause a ripple effect and will give rise to a sustainable transformation, in which local research with local data drives local policy and improves the health outcomes for vulnerable populations.
