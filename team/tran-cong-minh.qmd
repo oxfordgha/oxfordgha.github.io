@@ -1,0 +1,39 @@
+---
+title: Tran Cong Minh
+image: ../images/trancongminh.jpeg
+about:
+  template: solana
+  image-shape: round
+  image-alt: Tran Cong Minh
+  links:
+    - icon: globe
+      text: Digital Medicine in Acute Critical Care
+      href: https://mctran1.github.io/
+    - icon: globe
+      text: Forbes 30 Under 30 Vietnam 2022
+      href: https://forbes.vn/underthirty/tran-cong-minh/
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=wANNZugAAAAJ&hl=en
+    - icon: orcid
+      text: globe
+      href: https://orcid.org/0000-0003-2622-1365
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/minh-tran-02701376/
+    - icon: github
+      text: Github
+      href: https://github.com/mctran1
+---
+
+Minh is a researcher and innovator in biomedical engineering, specialising in the development and implementation of technologies for global health. His research group focuses on engineering novel medical devices and healthcare systems, with a particular emphasis on addressing challenges in international medical device regulation and safety.
+
+Rooted in a multidisciplinary approach, the team's work bridges engineering, clinical science, and health policy. He earned a Doctor of Philosophy (DPhil) in Engineering and Science from the University of Oxford and a degree in Software and System Engineering from the University of Sheffield. His academic foundations are in Bioengineering, with a focus on Biomedical Engineering Systems.
+
+Tran spearheads a robust international research network, with active, multi-disciplinary collaborations in Vietnam, New Zealand, the United States, and Taiwan. He is committed to advancing health equity and scientific capacity worldwide and serves in several leadership and community roles:
+
+* Chair, [Vietnam Young Academy](https://vietnamyoungacademy.org/)
+* Member, [International Stroke Recovery and Rehabilitation Alliance (ISRRA)](https://strokerecoveryalliance.com/)
+* Member, [Oxford Stroke Recovery Research Hub](https://www.ndcn.ox.ac.uk/research/oxford-stroke-recovery-research-hub)
+
+
