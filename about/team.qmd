@@ -2,13 +2,14 @@
 title: Meet the Team
 listing:
   contents: 
-    - "../team/proochista-ariana.qmd"
-    - "../team/bruno-holthof.qmd"
-    - "../team/carine-asnong.qmd"
-    - "../team/caesar-atuire.qmd"
-    - "../team/maha-el-adawy.qmd"
-    - "../team/dirk-horemans.qmd"
-    - "../team/ernest-guevarra.qmd"
+    - "../team/*.qmd"
+    # - "../team/proochista-ariana.qmd"
+    # - "../team/bruno-holthof.qmd"
+    # - "../team/carine-asnong.qmd"
+    # - "../team/caesar-atuire.qmd"
+    # - "../team/maha-el-adawy.qmd"
+    # - "../team/dirk-horemans.qmd"
+    # - "../team/ernest-guevarra.qmd"
   type: grid
   image-height: 300px
   image-placeholder: ../images/oxgha_icon.png
