@@ -1,6 +1,7 @@
 ---
 title: Tran Cong Minh
-image: ../images/trancongminh.jpeg
+#image: ../images/trancongminh.jpeg
+image: https://www.globalhealth.ox.ac.uk/our-researchers/minh-tran/@@haiku.profiles.portrait/8a9dc565f07d4b10a88017d6dd6594bf/@@images/image/w1140?9354a56f-11de-4822-840d-fd8835c49003
 about:
   template: solana
   image-shape: round
