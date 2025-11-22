@@ -17,9 +17,9 @@ website:
         aria-label: Mastodon
         href: https://mastodon.social/@oxgha
         rel: me
-      # - icon: bluesky
-      #   aria-label: BlueSky
-      #   href: https://bsky.app/profile/oxgha.org
+      - icon: bluesky
+        aria-label: BlueSky
+        href: https://bsky.app/profile/oxgha.org
       - icon: github
         aria-label: GitHub
         href: https://github.com/oxfordgha
