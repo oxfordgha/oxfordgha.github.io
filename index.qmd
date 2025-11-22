@@ -72,7 +72,7 @@ Supporting government and public sector partners in shaping effective health pol
 ::: {.g-col-3}
 
 ![](images/evidence_synthesis.png){fig-align="center"}
-Transforming research into actionable insights for through expert evidence synthesis and critical review.
+Transforming research into actionable insights through expert evidence synthesis and critical review.
 
 :::
 
