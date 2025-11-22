@@ -44,7 +44,7 @@ section-divs: false
 
 ::: {.hero-image-right}
 
-![](images/oxgha_icon.png)
+![](images/oxgha_icon.png){width="90%"}
 
 :::
 
